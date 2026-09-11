@@ -1,6 +1,6 @@
-# DSHarness 个人版合规页面
+# DeskHarness一键版合规页面
 
-本仓库用于发布 DSHarness 个人版的公开合规文档，内容依据 HarmonyOS 应用的实际离线功能整理。
+本仓库用于发布 DeskHarness一键版的公开合规文档，内容依据 HarmonyOS 应用的实际离线功能整理。
 
 ## 页面
 

@@ -28,6 +28,8 @@ for (const [file, chineseTitle, englishTitle] of pages) {
   assert(html.includes(englishTitle), `${file}: missing expected English title`);
   assert(html.includes("tomkuku588@gmail.com"), `${file}: missing contact email`);
   assert(html.includes("1.0.0"), `${file}: missing policy version`);
+  assert(html.includes("DeskHarness"), `${file}: missing current app name`);
+  assert(!html.includes("DSHarness"), `${file}: contains the previous app name`);
   assert(html.includes('<script src="./script.js" defer></script>'), `${file}: missing shared script`);
   assert(!html.includes("【待填写】"), `${file}: contains an unresolved placeholder`);
   assert(!/[A-Z]:\\Harmony_/i.test(html), `${file}: exposes a local path`);
