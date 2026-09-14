@@ -1,6 +1,6 @@
-# DeskHarness一键版合规页面
+# 百宝箱DeskHarbor合规页面
 
-本仓库用于发布 DeskHarness一键版的公开合规文档，内容依据 HarmonyOS 应用的实际离线功能整理。
+本仓库用于发布百宝箱DeskHarbor的公开合规文档，内容依据 HarmonyOS 应用的实际离线功能整理。
 
 ## 页面
 
